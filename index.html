@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kberry Cake & Event Studio</title>
+    <!-- STYLES SECTION-->
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <img src="img/3.png" alt="img" class="background">
+    <!-- SCROLL BUTTON -->
+    <a href="#">
+        <button id="myBtn" title="scroll">
+         <i class="glyphicon glyphicon-chevron-up"></i>
+        </button>
+      </a>
+    <!-- END SCROLL BUTTON-->
+    <!-- HEADER SECTION -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo1.png" alt="img">
+            <h1>KBerry</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <i class="fa fa-shopping-cart"><span>0</span></i>
+            <i class="fa fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!-- END HEADER SECTON -->
+
+    <!-- BODY SECTION -->
+    <section class="landing">
+        <div class="landing-title">
+            <h1>Pasteries, Cakes & Event Planning Especially for You!</h1>
+            <p>Author's deserts for every table</p>
+            <a href="#" class="btn">Choose a coffection</a>
+        </div>
+        <div class="landing-img">
+            <img src="img/1.jpg" alt="img">
+            <img src="img/2.jpg" alt="img">
+        </div>
+    </section>
+
+    <section class="menu">
+        <h1>Choose a Conffection</h1>
+        <div class="wrapper">
+            <i id="left" class="fa fa-chevron-left"></i>
+            <div class="carousel">
+              <div draggable="false" class="prd">
+                <img src="img/2.jpg" alt="img">
+                <div class="prd-title">
+                    <div>
+                        <h3>Cakes</h3>
+                        <p>15 types</p>
+                    </div>
+                    <a href="#" class="span">&#8594;</a>
+                </div>  
+              </div>
+              <div draggable="false" class="prd">
+                <img src="img/1.jpg" alt="img">
+                <div class="prd-title">
+                    <div>
+                        <h3>Pasteries</h3>
+                        <p>12 types</p>
+                    </div>
+                    <a href="#" class="span">&#8594;</a>
+                </div>
+              </div>
+              <div draggable="false" class="prd">
+                <img src="img/2.jpg" alt="img">
+                <div class="prd-title">
+                    <div>
+                        <h3>Eclairs</h3>
+                        <p>9 types</p>
+                    </div>
+                    <a href="#" class="span">&#8594;</a>
+                </div>
+              </div>
+              <div draggable="false" class="prd">
+                <img src="img/1.jpg" alt="img">
+                <div class="prd-title">
+                    <div>
+                        <h3>Deserts</h3>
+                        <p>14 types</p>
+                    </div>
+                    <a href="#" class="span">&#8594;</a>
+                </div>
+              </div>
+              <div draggable="false" class="prd">
+                <img src="img/2.jpg" alt="img">
+                <div class="prd-title">
+                    <div>
+                        <h3>Event</h3>
+                        <p>3 types</p>
+                    </div>
+                    <a href="#" class="span">&#8594;</a>
+                </div>
+              </div>
+            </div>
+            <i id="right" class="fa fa-chevron-right"></i>
+        </div>
+    </section>
+
+
+    <section class="order">
+        <div class="order-title">
+            <h1>Order Coffection</h1>
+            <p>Choose a coffection, fill in your details and our
+                manager will contact you to confirm your order
+            </p>
+        </div>
+        <form action="" autocomplete="on">
+           <select name="categories" required>
+            <option value="Choose a coffection">Choose a coffection</option>
+            <option value="Cake">Cake</option>
+            <option value="Pasteries">Pasteries</option>
+            <option value="Eclairs">Eclairs</option>
+            <option value="Deserts">Deserts</option>
+           </select>
+            <div>
+                <input type="text" placeholder="Your name" required>
+                <input type="tel" placeholder="Your phone number" required>
+            </div>
+            <button type="submit">Choose a coffection</button>
+        </form>
+        <img src="img/1.jpg" alt="img">
+    </section>
+    <!-- END BODY SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="panel-footer">
+        <div class="footer-info">   
+            <a href="index.html" class="logo">
+                <img src="img/logo1.png" alt="img">
+                <h1>KBerry</h1>
+            </a>
+            <p>We are in touch with you <a href="tel: +234-803-464-1033">+234 803 464 1033</a></p>
+        </div>
+        <div class="socials">
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+            <p>&copy; Copyright KBerry <script>document.write(new Date().getFullYear());</script> All Rights Reserved &reg;</p>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+<!-- SCRIPT SECTION -->
+<script src="js/script.js"></script>
+</body>
+</html>
