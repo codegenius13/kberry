@@ -1,3 +1,7 @@
+// SIDE NAV MENU 
+
+// END SIDE NAV MENU
+
 // PAGE SCROLLING TOP BUTTON
 let scrollingUp = () => {
     let scrollTop = document.getElementById("myBtn");
@@ -37,6 +41,7 @@ const body = document.body;
         lastScroll = currentScroll;
 });
 // END STICKY HEADER ONSCROLL TOP
+ 
 
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll(".prd")[0],

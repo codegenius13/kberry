@@ -28,17 +28,27 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="icon">
             <i class="fa fa-shopping-cart"><span>0</span></i>
             <i class="fa fa-ellipsis-v"></i>
+            <i class="fa fa-bars toggle-btn"></i>
+            <i class="fa fa-times toggle-rem"></i>
         </div>
     </header>
+    <nav class="side-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <!-- END HEADER SECTON -->
 
     <!-- BODY SECTION -->
@@ -123,7 +133,7 @@
             </p>
         </div>
         <form action="" autocomplete="on">
-           <select name="categories" required>
+           <select name="categories"  required>
             <option value="Choose a coffection">Choose a coffection</option>
             <option value="Cake">Cake</option>
             <option value="Pasteries">Pasteries</option>
@@ -131,13 +141,14 @@
             <option value="Deserts">Deserts</option>
            </select>
             <div>
-                <input type="text" placeholder="Your name" required>
-                <input type="tel" placeholder="Your phone number" required>
+                <input type="text" name="" placeholder="Your Name" required>
+                <input type="tel" name="" placeholder="Your Phone Number" required>
             </div>
-            <button type="submit">Choose a coffection</button>
+            <button type="submit" name="">Choose a coffection</button>
         </form>
         <img src="img/1.jpg" alt="img">
     </section>
+    <img src="img/1.jpg" alt="img" class="img-two">
     <!-- END BODY SECTION -->
 
     <!-- FOOTER SECTION -->
@@ -147,7 +158,7 @@
                 <img src="img/logo1.png" alt="img">
                 <h1>KBerry</h1>
             </a>
-            <p>We are in touch with you <a href="tel: +234-803-464-1033">+234 803 464 1033</a></p>
+            <p>We are in touch with you <a href="tel: +234-803-464-1033">+234&nbsp;803&nbsp;464&nbsp;1033</a></p>
         </div>
         <div class="socials">
             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
